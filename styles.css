@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 77%;
+    background-image: linear-gradient(to bottom right, red, blue);
+}
+
+#container{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: white;
+    z-index: 222;
+}
+
+#container-add{
+}
+
+#task1{
+    display: flexbox;
+    align-items: center;
+    font-size: 2rem;
+}
